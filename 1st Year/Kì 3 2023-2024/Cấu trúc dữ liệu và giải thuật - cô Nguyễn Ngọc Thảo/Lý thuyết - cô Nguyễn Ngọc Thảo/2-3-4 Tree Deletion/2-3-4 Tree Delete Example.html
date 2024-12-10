@@ -1,0 +1,363 @@
+
+<!-- saved from url=(0075)https://azrael.digipen.edu/~mmead/www/Courses/CS280/Trees-2-3-4-delete.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="./2-3-4 Tree Delete Example_files/new.css">
+<title>2-3-4 Tree Delete Example</title>
+</head>
+
+<body>  
+<center><h1>2-3-4 Tree Delete Example</h1></center>
+
+<!-- ************************************************************************************************ -->
+<!-- ************************************************************************************************ -->
+<p class="SectionHeader">Deleting Elements from a 2-3-4 Tree
+</p>
+
+Deleting an element in a 2-3-4 tree assumes we will <i>grow</i> (merge) nodes on the way down.
+<p>
+The idea is intuitive, but writing the algorithm down in English seems to make it look/sound harder than it is.
+</p><p>
+Again, when dealing with trees, there are different cases. Here, there are 3 different cases:
+
+</p><ol>
+<li>If the element, <i>k</i> is in the node and the node is a <i>leaf</i> containing at least 2 keys, simply remove <i>k</i> from the node.
+<p>
+</p></li><li>If the element, <i>k</i> is in the node and the node is an <i>internal node</i> perform <i>one</i> of the following:
+<ol>
+<li>If the element's <i>left</i> child has at least 2 keys, replace the element with its predecessor, <i>p</i>,
+and then recursively delete <i>p</i>.
+</li><li>If the element's <i>right</i> child has at least 2 keys, replace the element with its successor, <i>s</i>,
+and then recursively delete <i>s</i>.
+</li><li>If both children have only 1 key (the minimum), merge the right child into the left child and include
+the element, <i>k</i>, in the left child. Free the right child and recursively delete <i>k</i> from the 
+left child.
+</li></ol>
+<p>
+</p></li><li>If the element, <i>k</i>, is not in the internal node, follow the proper link to find <i>k</i>. 
+To ensure that all nodes we travel through will have at least 2 keys, you may need to perform one 
+of the following before descending into a node. Then, you will descend into the corresponding node. 
+Eventually, case 1 or 2 will be arrived at (if <i>k</i> is in the tree).
+<ol>
+<li>If the child node (the one being descending into) has only 1 key and has an immediate sibling
+with at least 2 keys, move an element down from the parent into the child and move an element from
+the sibling into the parent.
+</li><li>If both the child node and its immediate siblings have only 1 key each, merge the child node
+with one of the siblings and move an element down from the parent into the merged node. 
+This element will be the middle element in the node. Free the node whose elements were merged into the other node.
+</li></ol>
+</li></ol>
+
+Also, much like when deleting from a binary tree, all deletions are actually done at the leaf level, meaning that
+Case #1 is the way all items are actually deleted from the tree. We may have to push elements down into the leaves
+before actually deleting them.
+<hr width="90%">
+
+<ol>
+
+<li>Given this tree:</li>
+<blockquote>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-1.png">
+</p><p>
+</p></blockquote>
+
+
+We are going to delete the nodes in this order: <tt>A N H R C P E F V B X Y S Z</tt>. Deleting
+the nodes in this order will demonstrate each of the possible cases above.
+<p>
+	
+</p><li>Deleting <b>A</b> is Case #1: <b>A</b> is in a leaf and there are at least 2 keys in the node.</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-2.png">
+</p><p>
+
+<br>
+</p><li>This is the simplest case: Just remove <b>A</b> from the node, resulting in this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-3.png">
+</p><p>
+
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>N</b> is Case #3.1: <b>N</b> is in a leaf node, and it is the only key in the node.</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-4.png">
+</p><p>
+	
+<br>
+</p><li>There are at least 2 keys in the sibling node, so move the right-most key to the parent, and 
+	move the right-most parent down.
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-5.png">
+</p><p>
+	
+<br>
+</p></li><li> Now There are 2 keys in the leaf node, which is case #1. Just delete <b>N</b>, resulting in 
+	this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-6.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>H</b> is case #3.2: <b>H</b> is in a leaf node, and there are no siblings with at least
+	2 keys.</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-7.png">
+</p><p>
+	
+<br>
+</p><li>The parent has at least 2 keys, so we merge the right-most parent with its children: </li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-8.png">
+</p><p>
+	
+<br>
+</p><li>Now we can simple delete <b>H</b> from the leaf node, resulting in this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-9.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b><i>any</i></b> key from a leaf node will first require that we merge the root, <b>P</b>
+	with its two children (<b>C</b> and <b>V</b>) because of the "merge on the way down" rule.</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-10.png">
+</p><p>
+	
+<br>
+</p><li>After merging the root with its children:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-11.png">
+</p><p>
+
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Now we can proceed to delete <b>R</b>, which is case #1, <b>R</b> is in a leaf node and
+	there are at least 2 keys in the node:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-12.png">
+</p><p>
+
+<br>
+</p><li>After deleting <b>R</b>, the resulting tree looks like this:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-13.png">
+</p><p>
+	
+
+</p><p>	
+</p><hr width="100%">
+<p>
+</p><li>Deleting <b>C</b> is case #2.2: <b>C</b> is in an internal node, and its right child has
+	at least two keys:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-14.png">
+</p><p>
+	
+<br>
+</p><li>We replace <b>C</b> with its <i>successor</i>, which is <b>E</b>:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-15.png">
+</p><p>
+	
+<br>
+</p><li>Now we continue the search looking for <b>E</b>. Since <b>E</b> is in a leaf node
+	and there are at least 2 keys in the node, we just delete <b>E</b>, resulting
+	in this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-16.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>P</b> is case #2.3. <b>P</b> is in an internal node, and both of its children
+	only have a single key:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-17.png">
+</p><p>
+	
+<br>
+</p><li>So we merge <b>P</b> with its children. Now <b>P</b> is in a leaf node which has at 
+	least 2 keys:
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-18.png">
+</p><p>
+	
+<br>
+</p></li><li>Now we can simply delete	<b>P</b>, yeilding this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-19.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>E</b> is case #2.2: <b>E</b> is in an internal node and its right childe
+	has at least 2 keys, so we replace <b>E</b> with its successor, <b>F</b>.</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-20.png">
+</p><p>
+
+<br>
+</p><li>Now we can delete the original <b>F</b> because it is in a leaf node that contains at least 2 keys, 
+	resulting in this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-21.png">
+</p><p>
+
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>F</b>  is case #2.3. <b>F</b> is in an internal node, and both of its children
+	only have one key:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-22.png">
+</p><p>
+
+<br>
+</p><li>So we merge <b>F</b> with its children, giving us this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-23.png">
+</p><p>
+	
+<br>
+</p><li>Now, <b>F</b> is in a leaf node that has at least 2 keys, so we simply delete <b>F</b>:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-24.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>V</b> is case #2.1. <b>V</b> is in an internal node, and its left child has
+	at least 2 keys:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-25.png">
+</p><p>
+	
+<br>
+</p><li>So, we replace <b>V</b> with its <i>predecessor</i>, which is <b>S</b>:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-26.png">
+</p><p>
+	
+<br>
+</p><li>Now we delete the original <b>S</b> because it is in a leaf node that has at 
+	least 2 keys, resulting in this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-27.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>B</b> is case #3.1. <b>B</b> is in a leaf that has only 1 key, but
+	its sibling  has at least 2 keys:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-28.png">
+</p><p>
+	
+<br>
+</p><li>So we replace the parent key, <b>S</b>, with <b>S</b>'s successor, <b>X</b>,
+	and move <b>S</b> into its left child, giving us this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-29.png">
+</p><p>
+	
+<br>
+</p><li>Now, the node with <b>B</b> has at least 2 keys and is a leaf node, so we can simply 
+	delete <b>B</b> resulting in this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-30.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>X</b> is case #2.2, <b>X</b> is in an internal node, and there is at least
+	2 keys in its right child:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-31.png">
+</p><p>
+
+<br>
+</p><li>So we replace <b>X</b> with it's successor, <b>Y</b>:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-32.png">
+</p><p>
+
+<br>
+</p><li>Now we can delete the original <b>Y</b> because it is in a leaf that has at least 2 keys,
+	giving us this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-33.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Deleting <b>Y</b> is case #2.3. <b>Y</b> is in an internal node and both of its
+	children have only 1 key:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-34.png">
+</p><p>
+	
+</p><li>Merging <b>Y</b> (the root) with its children gives us this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-35.png">
+</p><p>
+
+	
+
+</p><li>Now, deleting <b>Y</b> (which is case #1) yields this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-36.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+
+</p><li>Since we have only one node, which is a leaf, deleting <b>S</b> 
+	is case #1, and gives us this tree:</li>
+<p>
+<img src="./2-3-4 Tree Delete Example_files/Trees-234-delete-37.png">
+</p><p>
+	
+</p><p>	
+</p><hr width="100%">
+<p>
+</p><li>Finally, deleting <b>Z</b> is also case #1 and yields an empty tree.</li>
+
+</ol>
+
+<br><br><br>
+
+<p>
+</p><hr>
+<p>
+	
+
+
+  
+</p><blockquote><pre></pre></blockquote>
+
+</body></html>

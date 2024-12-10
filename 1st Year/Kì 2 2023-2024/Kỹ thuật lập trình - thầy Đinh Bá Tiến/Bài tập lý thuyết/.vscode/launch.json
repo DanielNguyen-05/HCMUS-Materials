@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/dangnguyen/Library/CloudStorage/OneDrive-VNU-HCMUS/Năm 1/Kì 2 2023-2024/KTLT-thầy ĐBT/Bài tập lý thuyết",
+      "program": "/Users/dangnguyen/Library/CloudStorage/OneDrive-VNU-HCMUS/Năm 1/Kì 2 2023-2024/KTLT-thầy ĐBT/Bài tập lý thuyết/build/Debug/outDebug"
+    }
+  ]
+}
