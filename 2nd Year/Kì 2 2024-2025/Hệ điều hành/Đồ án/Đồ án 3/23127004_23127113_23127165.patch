@@ -1,0 +1,182 @@
+diff --git a/kernel/defs.h b/kernel/defs.h
+index a3c962b..b390726 100644
+--- a/kernel/defs.h
++++ b/kernel/defs.h
+@@ -165,6 +165,7 @@ void            uvmfirst(pagetable_t, uchar *, uint);
+ uint64          uvmalloc(pagetable_t, uint64, uint64, int);
+ uint64          uvmdealloc(pagetable_t, uint64, uint64);
+ int             uvmcopy(pagetable_t, pagetable_t, uint64);
++void            vmprint(pagetable_t pagetable);
+ void            uvmfree(pagetable_t, uint64);
+ void            uvmunmap(pagetable_t, uint64, uint64, int);
+ void            uvmclear(pagetable_t, uint64);
+diff --git a/kernel/exec.c b/kernel/exec.c
+index e18bbb6..9e22dd5 100644
+--- a/kernel/exec.c
++++ b/kernel/exec.c
+@@ -128,6 +128,7 @@ exec(char *path, char **argv)
+   p->trapframe->sp = sp; // initial stack pointer
+   proc_freepagetable(oldpagetable, oldsz);
+ 
++  if(p->pid==1) vmprint(p->pagetable);
+   return argc; // this ends up in a0, the first argument to main(argc, argv)
+ 
+  bad:
+diff --git a/kernel/proc.c b/kernel/proc.c
+index 58a8a0b..8708807 100644
+--- a/kernel/proc.c
++++ b/kernel/proc.c
+@@ -132,6 +132,15 @@ found:
+     return 0;
+   }
+ 
++  // Allocate a usyscall page.
++  if((p->usyscall = (struct usyscall*)kalloc()) == 0) {
++    freeproc(p);
++      release(&p->lock);
++      return 0;
++    }
++
++  (p->usyscall)->pid = p->pid;
++
+   // An empty user page table.
+   p->pagetable = proc_pagetable(p);
+   if(p->pagetable == 0){
+@@ -157,6 +166,8 @@ freeproc(struct proc *p)
+ {
+   if(p->trapframe)
+     kfree((void*)p->trapframe);
++  if(p->usyscall)
++    kfree((void*)p->usyscall);
+   p->trapframe = 0;
+   if(p->pagetable)
+     proc_freepagetable(p->pagetable, p->sz);
+@@ -202,6 +213,16 @@ proc_pagetable(struct proc *p)
+     return 0;
+   }
+ 
++  // map the usyscall page just below the trapframe page, for
++  // trampoline.S.
++  if(mappages(pagetable, USYSCALL, PGSIZE,
++      (uint64)p->usyscall, PTE_R | PTE_U) < 0) {
++      uvmunmap(pagetable, TRAMPOLINE, 1, 0);
++      uvmunmap(pagetable, TRAPFRAME, 1, 0);
++      uvmfree(pagetable, 0);
++      return 0;
++    }
++
+   return pagetable;
+ }
+ 
+@@ -212,6 +233,7 @@ proc_freepagetable(pagetable_t pagetable, uint64 sz)
+ {
+   uvmunmap(pagetable, TRAMPOLINE, 1, 0);
+   uvmunmap(pagetable, TRAPFRAME, 1, 0);
++  uvmunmap(pagetable, USYSCALL, 1, 0);
+   uvmfree(pagetable, sz);
+ }
+ 
+diff --git a/kernel/proc.h b/kernel/proc.h
+index d021857..7627ce1 100644
+--- a/kernel/proc.h
++++ b/kernel/proc.h
+@@ -95,11 +95,14 @@ struct proc {
+   // wait_lock must be held when using this:
+   struct proc *parent;         // Parent process
+ 
++  struct usyscall* usyscallpg; // Kernel VA pointer to the shared page
++
+   // these are private to the process, so p->lock need not be held.
+   uint64 kstack;               // Virtual address of kernel stack
+   uint64 sz;                   // Size of process memory (bytes)
+   pagetable_t pagetable;       // User page table
+   struct trapframe *trapframe; // data page for trampoline.S
++  struct usyscall *usyscall;   // syscall page for trampoline.S
+   struct context context;      // swtch() here to run process
+   struct file *ofile[NOFILE];  // Open files
+   struct inode *cwd;           // Current directory
+diff --git a/kernel/riscv.h b/kernel/riscv.h
+index 20a01db..3cd8b7b 100644
+--- a/kernel/riscv.h
++++ b/kernel/riscv.h
+@@ -344,6 +344,7 @@ typedef uint64 *pagetable_t; // 512 PTEs
+ #define PTE_X (1L << 3)
+ #define PTE_U (1L << 4) // user can access
+ 
++#define PTE_A (1L << 6) // recently-accessed bit
+ // shift a physical address to the right place for a PTE.
+ #define PA2PTE(pa) ((((uint64)pa) >> 12) << 10)
+ 
+diff --git a/kernel/sysproc.c b/kernel/sysproc.c
+index 88644b2..b11cab6 100644
+--- a/kernel/sysproc.c
++++ b/kernel/sysproc.c
+@@ -74,7 +74,37 @@ sys_sleep(void)
+ int
+ sys_pgaccess(void)
+ {
+-  // lab pgtbl: your code here.
++  uint64 addr;
++  int npages;
++  uint64 bitmask_addr;
++
++  // Get arguments from userspace
++  argaddr(0, &addr);
++  argint(1, &npages);
++  argaddr(2, &bitmask_addr);
++
++  if (npages <= 0 || npages > 64 || addr == 0 || bitmask_addr == 0)
++      return -1;
++
++  struct proc *p = myproc();
++  uint64 bitmask = 0;
++
++  for (int i = 0; i < npages; i++) {
++      uint64 va = addr + i * PGSIZE;
++      pte_t *pte = walk(p->pagetable, va, 0);
++      if (pte == 0)
++          continue;
++
++      if (*pte & PTE_A) {
++          bitmask |= ((uint64)1 << i);
++          // clear the access bit
++          *pte &= ~PTE_A;
++      }
++  }
++
++  // Copy the result to userspace
++  if (copyout(p->pagetable, bitmask_addr, (char *)&bitmask, sizeof(bitmask)) < 0)
++      return -1;
+   return 0;
+ }
+ #endif
+diff --git a/kernel/vm.c b/kernel/vm.c
+index 5c31e87..4636696 100644
+--- a/kernel/vm.c
++++ b/kernel/vm.c
+@@ -293,6 +293,25 @@ freewalk(pagetable_t pagetable)
+   kfree((void*)pagetable);
+ }
+ 
++void recursion_vmprint(pagetable_t pagetable, int id){
++  for(int i = 0; i < 512; i ++){
++    pte_t pte = pagetable[i];
++    if(pte & PTE_V){
++      for(int j = 0; j < id; j ++){
++        printf(" ..");
++      }
++      uint64 pa = PTE2PA(pte);
++      printf("%d: pte %p pa %p\n", i, (void*)pte, (void*)pa);
++
++      if((pte & (PTE_R|PTE_W|PTE_X)) == 0) recursion_vmprint((pagetable_t)pa, id + 1);
++    }
++  }
++}
++
++void vmprint(pagetable_t pagetable){
++  printf("page table %p\n", pagetable);
++  recursion_vmprint(pagetable, 1);
++}
+ // Free user memory pages,
+ // then free page-table pages.
+ void
