@@ -1,0 +1,1001 @@
+Branch,Customer type,Gender,Product line,Quantity,Total,Date,Rating
+A,Member,Female,Health and beauty,7,548.9715,1/5/2019,9.1
+C,Normal,Female,Electronic accessories,5,80.22,3/8/2019,9.6
+A,Normal,Male,Home and lifestyle,7,340.5255,3/3/2019,7.4
+A,Member,Male,Health and beauty,8,489.048,1/27/2019,8.4
+A,Normal,Male,Sports and travel,7,634.3785,2/8/2019,5.3
+C,Normal,Male,Electronic accessories,7,627.6165,3/25/2019,4.1
+A,Member,Female,Electronic accessories,6,433.692,2/25/2019,5.8
+C,Normal,Female,Home and lifestyle,10,772.38,2/24/2019,8
+A,Member,Female,Health and beauty,2,76.146,1/10/2019,7.2
+B,Member,Female,Food and beverages,3,172.746,2/20/2019,5.9
+B,Member,Female,Fashion accessories,4,60.816,2/6/2019,4.5
+B,Member,Male,Electronic accessories,4,107.142,3/9/2019,6.8
+A,Normal,Female,Electronic accessories,5,246.4875,2/12/2019,7.1
+A,Normal,Male,Food and beverages,10,453.495,2/7/2019,8.2
+A,Normal,Female,Health and beauty,10,749.49,3/29/2019,5.7
+B,Member,Female,Sports and travel,6,590.436,1/15/2019,4.5
+A,Member,Female,Health and beauty,7,506.6355,3/11/2019,4.6
+A,Normal,Male,Sports and travel,6,457.443,1/1/2019,6.9
+A,Normal,Male,Food and beverages,3,172.2105,1/21/2019,8.6
+B,Normal,Female,Home and lifestyle,2,84.63,3/11/2019,4.4
+C,Member,Male,Electronic accessories,5,451.71,2/25/2019,4.8
+B,Normal,Male,Health and beauty,3,277.137,3/5/2019,5.1
+B,Normal,Male,Home and lifestyle,2,69.72,3/15/2019,4.4
+A,Normal,Male,Electronic accessories,5,181.44,2/17/2019,9.9
+A,Member,Male,Sports and travel,3,279.1845,3/2/2019,6
+A,Member,Female,Home and lifestyle,8,441.756,3/22/2019,8.5
+B,Normal,Male,Fashion accessories,1,35.196,2/8/2019,6.7
+A,Normal,Female,Fashion accessories,2,184.107,3/10/2019,7.7
+B,Normal,Female,Food and beverages,5,463.89,1/25/2019,9.6
+A,Normal,Male,Health and beauty,9,235.2105,3/15/2019,7.4
+B,Normal,Male,Fashion accessories,5,494.1825,2/25/2019,4.8
+B,Member,Male,Sports and travel,9,737.7615,1/28/2019,4.5
+B,Normal,Male,Sports and travel,8,703.752,1/10/2019,5.1
+A,Normal,Male,Health and beauty,2,202.818,3/15/2019,5.1
+C,Member,Female,Food and beverages,4,417.564,2/6/2019,7.5
+C,Member,Female,Sports and travel,1,71.526,1/7/2019,6.8
+A,Member,Male,Sports and travel,5,328.755,3/10/2019,7
+A,Normal,Female,Electronic accessories,9,575.316,1/15/2019,4.7
+C,Normal,Female,Health and beauty,8,461.328,3/23/2019,7.6
+B,Member,Male,Home and lifestyle,8,253.008,3/3/2019,7.7
+B,Member,Female,Home and lifestyle,1,91.056,1/17/2019,7.9
+C,Member,Male,Home and lifestyle,2,117.831,2/2/2019,6.3
+B,Member,Female,Sports and travel,6,435.456,2/8/2019,5.6
+C,Member,Female,Food and beverages,8,829.08,3/4/2019,7.6
+C,Member,Male,Health and beauty,2,32.277,3/16/2019,7.2
+B,Member,Female,Electronic accessories,4,394.632,3/9/2019,9.5
+B,Member,Male,Health and beauty,9,535.7205,2/27/2019,8.4
+B,Member,Female,Food and beverages,9,189.0945,2/6/2019,4.1
+B,Member,Male,Electronic accessories,6,119.259,2/10/2019,8.1
+C,Member,Female,Fashion accessories,10,867.615,3/19/2019,7.9
+C,Member,Male,Food and beverages,7,671.79,2/3/2019,9.5
+A,Member,Female,Food and beverages,5,234.0975,2/10/2019,8.5
+B,Member,Female,Fashion accessories,4,75.054,3/22/2019,6.5
+C,Member,Male,Fashion accessories,1,16.2015,1/25/2019,6.1
+B,Normal,Male,Home and lifestyle,2,33.936,3/7/2019,6.5
+C,Normal,Female,Electronic accessories,8,722.232,2/28/2019,8.2
+A,Member,Male,Home and lifestyle,2,93.114,3/27/2019,5.8
+A,Normal,Male,Health and beauty,8,752.64,2/7/2019,6.6
+A,Member,Female,Home and lifestyle,10,759.675,1/20/2019,5.4
+C,Normal,Male,Electronic accessories,6,192.843,3/12/2019,9.3
+C,Member,Female,Sports and travel,3,77.931,2/15/2019,10
+C,Normal,Male,Home and lifestyle,6,351.099,2/24/2019,7
+B,Member,Female,Sports and travel,9,520.4115,2/3/2019,10
+A,Member,Male,Sports and travel,10,166.005,3/6/2019,8.6
+B,Member,Male,Health and beauty,4,318.108,2/14/2019,7.6
+A,Member,Male,Health and beauty,10,166.635,3/13/2019,5.8
+C,Normal,Female,Health and beauty,2,70.287,2/10/2019,6.7
+B,Member,Female,Fashion accessories,6,614.943,1/7/2019,9.9
+A,Normal,Male,Sports and travel,10,827.085,1/24/2019,6.4
+A,Member,Female,Health and beauty,1,19.2465,2/2/2019,4.3
+C,Normal,Male,Food and beverages,10,939.54,1/6/2019,9.6
+C,Normal,Male,Fashion accessories,10,652.26,2/11/2019,5.9
+B,Member,Female,Food and beverages,3,152.838,3/5/2019,4
+C,Normal,Female,Electronic accessories,6,478.233,3/9/2019,8.7
+A,Normal,Male,Home and lifestyle,9,705.6315,1/22/2019,9.4
+C,Normal,Female,Electronic accessories,10,437.325,1/13/2019,5.4
+C,Member,Male,Fashion accessories,9,463.428,1/9/2019,8.6
+A,Member,Female,Fashion accessories,9,189.0945,1/12/2019,5.7
+C,Member,Female,Food and beverages,10,822.255,3/5/2019,6.6
+C,Normal,Female,Health and beauty,5,106.995,1/22/2019,6
+C,Normal,Female,Health and beauty,6,624.897,1/21/2019,5.5
+B,Normal,Female,Food and beverages,3,304.542,1/26/2019,6.4
+C,Normal,Male,Food and beverages,8,161.7,1/23/2019,6.6
+C,Member,Female,Food and beverages,4,337.512,2/23/2019,8.3
+C,Member,Male,Sports and travel,5,256.7775,3/9/2019,6.6
+C,Normal,Female,Sports and travel,7,610.491,3/5/2019,4
+C,Normal,Male,Fashion accessories,5,401.73,3/25/2019,9.9
+A,Member,Male,Food and beverages,7,362.943,3/27/2019,7.3
+A,Normal,Male,Sports and travel,1,44.5935,1/2/2019,5.7
+B,Normal,Female,Health and beauty,6,485.037,2/27/2019,6.1
+C,Member,Female,Home and lifestyle,4,198.996,1/23/2019,7.1
+C,Normal,Female,Sports and travel,10,471.03,1/26/2019,8.2
+A,Member,Female,Sports and travel,7,161.553,1/10/2019,5.1
+B,Member,Male,Health and beauty,9,608.202,3/12/2019,8.6
+C,Normal,Male,Health and beauty,1,94.2375,2/6/2019,6.6
+A,Normal,Male,Electronic accessories,1,102.018,3/8/2019,7.2
+B,Normal,Male,Health and beauty,10,922.635,3/29/2019,5.1
+C,Normal,Female,Electronic accessories,6,78.435,2/9/2019,4.1
+A,Normal,Male,Food and beverages,3,166.1625,3/23/2019,9.3
+B,Normal,Male,Home and lifestyle,6,521.01,3/5/2019,7.4
+C,Member,Male,Fashion accessories,1,51.1455,3/26/2019,4.1
+C,Normal,Male,Fashion accessories,9,742.2975,3/1/2019,7.2
+C,Normal,Female,Electronic accessories,9,218.0115,2/1/2019,4.9
+A,Normal,Male,Food and beverages,6,367.038,3/28/2019,9.9
+B,Normal,Male,Health and beauty,7,223.0725,3/19/2019,8
+A,Member,Male,Electronic accessories,10,931.035,1/12/2019,7.3
+C,Normal,Male,Fashion accessories,6,172.494,1/5/2019,7.9
+A,Normal,Male,Sports and travel,6,391.419,3/22/2019,7.4
+C,Normal,Female,Food and beverages,9,321.111,3/24/2019,4.2
+C,Member,Male,Electronic accessories,10,860.685,3/3/2019,9.2
+B,Member,Female,Sports and travel,2,34.629,2/5/2019,4.6
+C,Member,Female,Health and beauty,3,309.3615,2/5/2019,7.8
+B,Normal,Female,Fashion accessories,7,535.374,2/15/2019,8.4
+A,Member,Male,Home and lifestyle,9,548.7615,1/19/2019,4.3
+C,Member,Female,Home and lifestyle,9,763.4655,2/1/2019,9.5
+C,Normal,Female,Fashion accessories,3,85.113,3/2/2019,7.1
+B,Member,Male,Fashion accessories,5,115.185,3/5/2019,5.3
+B,Member,Male,Fashion accessories,1,53.928,1/16/2019,5.2
+A,Normal,Female,Food and beverages,10,115.08,2/2/2019,6
+B,Normal,Male,Home and lifestyle,2,112.224,1/20/2019,4.1
+A,Normal,Female,Electronic accessories,8,836.304,2/14/2019,5.2
+C,Member,Male,Sports and travel,7,419.832,1/12/2019,6.5
+B,Member,Male,Sports and travel,9,944.622,3/9/2019,4.2
+C,Member,Male,Home and lifestyle,8,536.844,3/13/2019,4.6
+B,Member,Female,Fashion accessories,8,474.348,3/9/2019,7.3
+A,Normal,Female,Home and lifestyle,7,688.6215,3/10/2019,4.5
+A,Normal,Female,Sports and travel,5,169.3125,1/27/2019,9
+C,Normal,Female,Fashion accessories,9,299.8485,1/8/2019,5.9
+C,Member,Female,Food and beverages,8,575.736,1/8/2019,8.5
+B,Normal,Female,Sports and travel,9,853.146,2/8/2019,7.2
+B,Normal,Female,Fashion accessories,7,291.207,1/25/2019,7.5
+A,Member,Female,Sports and travel,6,580.419,3/6/2019,8.3
+B,Normal,Female,Sports and travel,4,146.328,2/10/2019,7.4
+B,Member,Male,Electronic accessories,6,550.935,2/17/2019,8.8
+C,Normal,Female,Health and beauty,6,512.19,3/8/2019,5.3
+C,Normal,Male,Fashion accessories,3,284.193,2/18/2019,6.2
+A,Normal,Female,Electronic accessories,5,138.1275,1/18/2019,8.8
+A,Member,Female,Home and lifestyle,6,216.846,2/18/2019,9.8
+B,Normal,Male,Sports and travel,10,545.055,2/16/2019,8.2
+A,Normal,Male,Sports and travel,8,609,3/16/2019,9.2
+C,Member,Female,Sports and travel,10,942.9,1/23/2019,5.4
+C,Member,Male,Health and beauty,10,950.25,1/25/2019,8.1
+C,Member,Female,Health and beauty,10,720.3,2/5/2019,9.1
+C,Member,Female,Food and beverages,1,31.9305,2/22/2019,8.4
+A,Normal,Female,Home and lifestyle,6,491.085,1/21/2019,8
+C,Normal,Female,Health and beauty,6,291.438,3/8/2019,9.5
+A,Member,Female,Fashion accessories,10,316.47,2/10/2019,9.2
+C,Normal,Male,Health and beauty,4,277.788,3/19/2019,5.6
+B,Member,Male,Home and lifestyle,8,603.624,3/6/2019,6.2
+A,Normal,Male,Health and beauty,8,272.664,3/27/2019,4.9
+B,Member,Female,Fashion accessories,4,384.468,3/23/2019,4.8
+C,Member,Male,Sports and travel,7,254.016,3/11/2019,7.3
+A,Normal,Male,Fashion accessories,9,786.618,1/29/2019,7.4
+C,Normal,Female,Food and beverages,6,103.824,2/7/2019,9.9
+C,Normal,Female,Sports and travel,8,680.148,1/28/2019,9.3
+A,Member,Male,Food and beverages,5,484.5225,2/20/2019,9
+B,Member,Male,Electronic accessories,1,75.7785,1/4/2019,6.1
+B,Normal,Male,Home and lifestyle,5,263.97,3/7/2019,9.7
+B,Member,Male,Health and beauty,9,918.729,3/30/2019,6
+B,Normal,Male,Sports and travel,6,588.357,3/27/2019,10
+C,Normal,Female,Food and beverages,8,362.712,1/19/2019,8.3
+A,Normal,Male,Sports and travel,1,66.8745,2/25/2019,6
+A,Normal,Male,Food and beverages,7,336.5565,3/13/2019,7
+C,Normal,Male,Sports and travel,2,160.44,1/30/2019,6.5
+B,Normal,Male,Food and beverages,10,418.95,2/20/2019,5.9
+B,Member,Male,Health and beauty,8,357.588,2/25/2019,5.6
+C,Normal,Male,Home and lifestyle,10,1003.59,1/16/2019,4.8
+A,Normal,Male,Fashion accessories,10,1039.29,2/8/2019,8.7
+A,Normal,Male,Food and beverages,6,323.064,1/19/2019,6.5
+A,Member,Male,Sports and travel,7,510.972,2/1/2019,8.5
+A,Normal,Male,Health and beauty,5,367.5525,1/3/2019,5.5
+B,Member,Male,Food and beverages,5,420.2625,1/26/2019,9.4
+C,Normal,Male,Electronic accessories,8,175.14,3/3/2019,6.3
+B,Member,Male,Electronic accessories,6,333.207,1/19/2019,9.8
+B,Normal,Male,Food and beverages,8,166.236,1/18/2019,8.7
+A,Member,Male,Home and lifestyle,9,319.788,3/21/2019,8.8
+A,Member,Male,Food and beverages,8,186.228,3/3/2019,9.6
+C,Normal,Female,Fashion accessories,7,165.4485,2/13/2019,4.8
+A,Normal,Male,Food and beverages,6,465.444,3/23/2019,4.4
+C,Member,Male,Health and beauty,3,273.42,1/28/2019,9.9
+C,Normal,Male,Fashion accessories,7,472.311,2/9/2019,5.7
+C,Member,Male,Food and beverages,8,323.148,1/23/2019,7.7
+A,Member,Male,Sports and travel,10,162.75,3/23/2019,8
+C,Normal,Male,Health and beauty,8,288.204,1/25/2019,5.7
+A,Normal,Female,Sports and travel,7,90.699,3/4/2019,6.7
+B,Member,Male,Food and beverages,3,56.952,3/5/2019,8
+B,Member,Female,Home and lifestyle,8,793.716,3/3/2019,7.5
+B,Member,Male,Home and lifestyle,4,195.174,2/8/2019,7
+A,Normal,Male,Home and lifestyle,1,77.7735,2/10/2019,9.9
+C,Normal,Female,Home and lifestyle,4,293.202,1/28/2019,5.9
+B,Normal,Female,Home and lifestyle,3,242.676,2/11/2019,7.2
+B,Normal,Female,Fashion accessories,2,154.392,1/15/2019,4.6
+C,Normal,Female,Food and beverages,9,829.71,3/16/2019,9.2
+B,Normal,Male,Home and lifestyle,4,107.31,1/26/2019,5.7
+A,Normal,Male,Electronic accessories,5,171.7275,3/19/2019,9.9
+C,Member,Female,Fashion accessories,1,78.0045,1/13/2019,5
+C,Member,Male,Health and beauty,2,91.77,3/26/2019,4.9
+A,Normal,Female,Home and lifestyle,1,26.5545,3/23/2019,6.1
+C,Normal,Male,Health and beauty,4,174.3,3/12/2019,8.2
+C,Member,Female,Food and beverages,5,374.7975,2/17/2019,5.5
+C,Member,Female,Sports and travel,6,120.645,1/29/2019,6.8
+B,Member,Female,Electronic accessories,4,241.458,3/15/2019,6.6
+C,Normal,Male,Electronic accessories,7,451.3635,1/14/2019,9.8
+B,Member,Male,Health and beauty,10,271.95,2/6/2019,8.7
+B,Member,Male,Home and lifestyle,5,93.2925,2/15/2019,5.4
+A,Normal,Female,Health and beauty,9,217.6335,1/3/2019,7.9
+C,Member,Female,Electronic accessories,9,629.8425,1/4/2019,9.7
+C,Member,Female,Home and lifestyle,10,299.565,3/18/2019,7.8
+B,Normal,Female,Fashion accessories,3,95.6655,3/28/2019,5.1
+B,Normal,Female,Electronic accessories,9,942.4485,3/2/2019,6.5
+A,Normal,Male,Electronic accessories,9,247.8735,1/25/2019,5.9
+C,Normal,Female,Food and beverages,9,881.307,1/16/2019,8.8
+B,Normal,Male,Home and lifestyle,5,484.89,3/20/2019,4.9
+B,Normal,Male,Sports and travel,3,146.223,1/4/2019,4.4
+B,Member,Female,Sports and travel,7,217.6335,3/11/2019,6.5
+A,Normal,Male,Home and lifestyle,1,19.194,3/22/2019,8.3
+B,Normal,Female,Sports and travel,5,130.0425,3/24/2019,8.5
+A,Member,Female,Electronic accessories,3,298.116,2/21/2019,5.5
+B,Normal,Male,Fashion accessories,8,796.908,2/12/2019,8.7
+B,Normal,Female,Food and beverages,3,180.621,3/10/2019,7.9
+B,Normal,Male,Electronic accessories,6,285.705,1/31/2019,6.1
+B,Normal,Male,Food and beverages,7,456.288,3/6/2019,5.4
+C,Normal,Male,Electronic accessories,5,62.0025,2/17/2019,9.4
+C,Member,Female,Fashion accessories,1,13.167,2/21/2019,8.2
+A,Normal,Male,Food and beverages,2,90.825,3/20/2019,6.2
+C,Member,Female,Sports and travel,2,183.036,1/11/2019,9.7
+B,Member,Male,Health and beauty,9,655.5465,1/26/2019,4
+C,Member,Male,Electronic accessories,4,155.652,1/31/2019,9.7
+B,Member,Female,Electronic accessories,6,571.41,2/26/2019,5.3
+A,Normal,Female,Home and lifestyle,8,532.728,3/11/2019,7.4
+B,Normal,Female,Fashion accessories,2,170.877,1/26/2019,6.5
+B,Member,Female,Electronic accessories,3,33.3585,3/12/2019,8.7
+B,Normal,Female,Health and beauty,9,794.6505,2/11/2019,8
+B,Member,Male,Fashion accessories,4,310.044,2/21/2019,6.7
+A,Member,Male,Health and beauty,10,545.37,3/9/2019,6.5
+A,Normal,Female,Sports and travel,2,195.594,1/20/2019,4.1
+C,Normal,Male,Health and beauty,5,91.4025,1/28/2019,4.9
+C,Member,Female,Fashion accessories,5,232.155,3/5/2019,8.6
+B,Member,Female,Electronic accessories,5,69.405,3/2/2019,4.3
+A,Normal,Male,Fashion accessories,1,94.1745,1/11/2019,4.9
+A,Normal,Male,Food and beverages,9,235.683,1/11/2019,5.6
+A,Normal,Male,Health and beauty,2,125.517,3/11/2019,5.8
+C,Member,Male,Fashion accessories,2,195.72,2/28/2019,6
+A,Member,Male,Home and lifestyle,4,263.13,1/5/2019,4.2
+B,Normal,Male,Home and lifestyle,8,788.508,2/2/2019,8.3
+A,Member,Male,Home and lifestyle,8,399.756,1/1/2019,5.7
+B,Member,Female,Electronic accessories,3,256.41,2/9/2019,4.8
+A,Member,Male,Fashion accessories,5,94.185,1/23/2019,6.8
+A,Member,Male,Electronic accessories,4,326.424,1/7/2019,8.8
+B,Normal,Male,Food and beverages,7,536.991,1/14/2019,4.2
+B,Member,Male,Food and beverages,9,439.8975,2/2/2019,6.4
+C,Member,Male,Fashion accessories,10,369.495,3/17/2019,8.4
+C,Normal,Female,Sports and travel,2,30.219,3/2/2019,7.2
+A,Normal,Male,Home and lifestyle,4,99.75,3/16/2019,5.2
+A,Member,Male,Home and lifestyle,8,494.76,1/6/2019,8.9
+B,Member,Male,Fashion accessories,4,137.004,1/29/2019,9
+A,Member,Male,Electronic accessories,1,69.6675,1/31/2019,9.7
+A,Member,Male,Home and lifestyle,6,163.233,2/5/2019,8.7
+A,Member,Male,Electronic accessories,4,135.45,2/13/2019,6.5
+C,Member,Male,Electronic accessories,4,276.948,2/7/2019,6.9
+A,Normal,Female,Electronic accessories,9,709.317,3/19/2019,6.2
+C,Normal,Female,Fashion accessories,4,69.09,3/7/2019,5.6
+B,Member,Female,Fashion accessories,4,160.86,3/13/2019,5.7
+A,Member,Female,Sports and travel,10,233.52,2/9/2019,4.2
+B,Normal,Male,Sports and travel,1,57.1725,2/26/2019,7.9
+A,Member,Female,Sports and travel,7,723.24,3/12/2019,8.7
+C,Normal,Male,Home and lifestyle,4,148.974,3/14/2019,6.9
+B,Member,Female,Food and beverages,10,783.3,1/8/2019,9.5
+A,Member,Male,Home and lifestyle,4,297.108,1/5/2019,4.4
+A,Member,Female,Home and lifestyle,10,373.17,1/4/2019,7
+B,Normal,Female,Sports and travel,5,354.0075,3/6/2019,6.3
+C,Member,Female,Health and beauty,2,44.352,1/3/2019,9.7
+A,Member,Female,Home and lifestyle,9,203.553,1/7/2019,8.8
+A,Normal,Female,Home and lifestyle,2,25.263,1/27/2019,5.1
+B,Normal,Female,Health and beauty,6,628.173,2/26/2019,7.9
+B,Normal,Male,Fashion accessories,7,352.5795,1/7/2019,6.2
+C,Member,Female,Home and lifestyle,10,229.11,1/7/2019,7.1
+C,Normal,Female,Fashion accessories,4,400.764,2/2/2019,6.4
+C,Member,Male,Fashion accessories,10,745.395,3/20/2019,5.7
+A,Member,Male,Sports and travel,10,462.21,3/20/2019,9.6
+A,Normal,Female,Home and lifestyle,8,587.664,2/15/2019,6.4
+C,Normal,Male,Home and lifestyle,1,38.85,3/6/2019,7.9
+A,Normal,Female,Sports and travel,1,16.107,1/6/2019,6.5
+A,Member,Male,Health and beauty,6,628.929,3/4/2019,8.5
+A,Member,Female,Health and beauty,4,200.214,3/12/2019,9.1
+B,Normal,Male,Health and beauty,5,350.07,2/20/2019,7.6
+C,Member,Male,Home and lifestyle,1,78.603,3/24/2019,6.9
+C,Normal,Female,Sports and travel,9,224.4375,1/31/2019,9.5
+B,Normal,Female,Food and beverages,7,356.5485,1/25/2019,5.2
+A,Member,Female,Home and lifestyle,7,697.368,2/3/2019,4.2
+B,Member,Male,Electronic accessories,10,423.15,1/24/2019,7
+C,Normal,Male,Electronic accessories,7,204.6975,3/14/2019,6
+A,Member,Female,Electronic accessories,1,65.604,2/18/2019,4.7
+A,Member,Female,Food and beverages,2,76.356,1/21/2019,7.1
+B,Normal,Male,Health and beauty,10,190.155,3/13/2019,5.9
+C,Member,Female,Electronic accessories,5,272.58,3/3/2019,7.5
+C,Normal,Male,Electronic accessories,4,121.128,3/29/2019,6.4
+A,Member,Male,Home and lifestyle,6,493.794,1/10/2019,5.8
+A,Member,Male,Home and lifestyle,4,252.042,1/25/2019,4.5
+C,Member,Female,Home and lifestyle,1,93.0405,1/19/2019,7.7
+C,Normal,Male,Fashion accessories,2,209.622,1/2/2019,6.7
+B,Member,Male,Health and beauty,1,40.9605,3/12/2019,4.7
+C,Normal,Male,Food and beverages,1,51.0405,2/25/2019,4.4
+A,Normal,Female,Electronic accessories,4,214.998,3/18/2019,4.7
+B,Normal,Female,Electronic accessories,8,125.664,2/23/2019,8.6
+A,Member,Male,Electronic accessories,7,530.67,3/26/2019,4.3
+A,Normal,Female,Sports and travel,7,295.6905,3/30/2019,9.6
+A,Member,Female,Home and lifestyle,8,745.836,2/17/2019,4.1
+A,Member,Female,Electronic accessories,3,83.412,3/21/2019,4.7
+A,Normal,Female,Fashion accessories,2,172.011,3/5/2019,7.8
+B,Member,Male,Sports and travel,6,503.559,1/31/2019,5.5
+C,Member,Male,Fashion accessories,2,145.593,2/5/2019,9.7
+A,Member,Female,Food and beverages,5,74.7075,2/1/2019,4.4
+A,Member,Female,Health and beauty,9,146.9475,3/7/2019,5
+C,Member,Female,Electronic accessories,10,820.365,2/10/2019,4.4
+C,Member,Male,Food and beverages,2,208.677,2/14/2019,5.2
+C,Member,Female,Food and beverages,3,66.402,2/9/2019,7.3
+C,Member,Male,Electronic accessories,5,392.6475,1/10/2019,4.9
+C,Member,Female,Health and beauty,7,218.0745,3/11/2019,8.1
+C,Member,Male,Health and beauty,4,185.094,2/18/2019,8.4
+C,Normal,Female,Food and beverages,9,216.6885,2/26/2019,5.5
+C,Normal,Female,Health and beauty,1,41.391,1/18/2019,8.4
+A,Normal,Male,Health and beauty,6,96.138,2/15/2019,9.8
+A,Normal,Female,Fashion accessories,5,324.2925,3/8/2019,6.7
+A,Normal,Male,Home and lifestyle,6,135.576,1/17/2019,9.4
+B,Normal,Male,Sports and travel,4,410.508,3/12/2019,6.4
+A,Member,Male,Food and beverages,5,523.845,3/9/2019,5.4
+C,Member,Male,Food and beverages,4,395.892,3/12/2019,8.6
+B,Member,Male,Health and beauty,4,214.746,1/25/2019,4
+A,Member,Male,Electronic accessories,4,152.712,3/25/2019,7.6
+B,Normal,Male,Home and lifestyle,9,208.089,2/7/2019,6.8
+A,Normal,Male,Food and beverages,3,103.635,2/17/2019,9.1
+A,Normal,Male,Fashion accessories,5,404.355,2/3/2019,5.5
+A,Member,Male,Food and beverages,2,49.308,3/14/2019,7.9
+C,Member,Male,Sports and travel,5,77.175,3/24/2019,8.5
+A,Member,Female,Electronic accessories,5,149.3625,3/21/2019,9.1
+A,Normal,Male,Fashion accessories,9,721.98,3/19/2019,7.5
+B,Normal,Female,Sports and travel,6,365.085,2/24/2019,5.2
+C,Normal,Female,Electronic accessories,3,150.0975,3/28/2019,9.5
+B,Member,Female,Food and beverages,9,404.649,2/5/2019,8.9
+B,Member,Male,Electronic accessories,3,151.4835,2/10/2019,7.8
+B,Member,Female,Health and beauty,7,411.3795,3/5/2019,8.9
+B,Member,Female,Health and beauty,7,565.215,2/15/2019,7.7
+C,Normal,Female,Food and beverages,5,509.4075,1/30/2019,9.3
+A,Normal,Male,Sports and travel,3,140.6475,2/14/2019,6.2
+A,Normal,Female,Fashion accessories,9,736.4385,2/27/2019,7.6
+A,Member,Male,Electronic accessories,1,75.5475,2/4/2019,7.3
+C,Member,Female,Home and lifestyle,8,749.7,1/20/2019,4.7
+A,Normal,Male,Electronic accessories,7,191.247,3/28/2019,5.1
+B,Normal,Female,Health and beauty,10,141.75,2/27/2019,4.8
+C,Member,Female,Fashion accessories,10,1042.65,2/15/2019,6.6
+A,Normal,Male,Electronic accessories,7,379.9215,1/26/2019,5.5
+B,Member,Female,Fashion accessories,7,402.2655,3/14/2019,8.5
+B,Member,Male,Home and lifestyle,9,255.15,3/2/2019,4.8
+C,Normal,Female,Electronic accessories,1,31.752,3/4/2019,8.4
+B,Member,Female,Food and beverages,4,374.388,1/7/2019,7.8
+C,Normal,Female,Fashion accessories,10,394.275,3/8/2019,9.3
+C,Normal,Female,Sports and travel,10,1002.12,1/9/2019,5.2
+B,Normal,Male,Electronic accessories,3,86.625,3/1/2019,6.5
+B,Normal,Male,Sports and travel,1,78.7185,3/16/2019,5.6
+A,Member,Male,Food and beverages,8,680.064,2/17/2019,7.4
+C,Normal,Female,Food and beverages,8,793.548,2/27/2019,9.1
+C,Normal,Male,Food and beverages,2,209.559,3/7/2019,8
+A,Normal,Male,Home and lifestyle,6,461.286,1/21/2019,7.2
+C,Normal,Female,Food and beverages,4,173.208,2/19/2019,7.1
+C,Normal,Female,Fashion accessories,4,343.056,1/6/2019,9.1
+C,Normal,Female,Electronic accessories,9,484.974,3/14/2019,5.6
+A,Member,Male,Home and lifestyle,4,276.948,3/24/2019,6
+C,Normal,Female,Sports and travel,10,150.78,1/27/2019,5.4
+A,Member,Male,Electronic accessories,9,203.175,3/6/2019,7.8
+B,Member,Female,Electronic accessories,7,193.011,2/2/2019,9.9
+B,Normal,Female,Fashion accessories,2,128.016,1/25/2019,4.9
+C,Normal,Female,Home and lifestyle,6,441.693,3/14/2019,5.2
+C,Normal,Male,Fashion accessories,6,265.104,1/29/2019,8.9
+A,Normal,Female,Home and lifestyle,5,352.2225,1/3/2019,9.1
+A,Member,Female,Fashion accessories,5,507.675,1/14/2019,7
+B,Member,Female,Home and lifestyle,9,334.341,1/5/2019,9.6
+C,Normal,Male,Sports and travel,7,701.8515,2/22/2019,8.7
+C,Member,Male,Fashion accessories,4,407.316,2/6/2019,9.4
+B,Normal,Female,Electronic accessories,4,99.33,1/30/2019,4
+A,Member,Male,Sports and travel,4,345.786,1/11/2019,7.5
+C,Normal,Female,Electronic accessories,2,55.881,3/19/2019,4.2
+B,Normal,Female,Food and beverages,5,523.3725,1/14/2019,9.9
+C,Member,Female,Food and beverages,4,314.538,3/1/2019,4.2
+A,Normal,Female,Food and beverages,5,214.935,1/6/2019,9.9
+B,Member,Male,Sports and travel,1,79.611,1/31/2019,5.8
+C,Normal,Male,Food and beverages,6,294.651,3/11/2019,6
+A,Normal,Female,Health and beauty,10,339.36,2/20/2019,10
+C,Member,Female,Fashion accessories,9,510.9615,1/27/2019,9.5
+B,Normal,Male,Food and beverages,7,133.917,3/10/2019,6.6
+C,Member,Female,Fashion accessories,3,253.512,2/15/2019,8.1
+B,Normal,Female,Fashion accessories,10,398.475,1/26/2019,9.7
+A,Member,Male,Electronic accessories,1,80.661,2/13/2019,7.2
+A,Member,Female,Sports and travel,10,548.73,3/9/2019,6.2
+A,Normal,Female,Health and beauty,1,83.727,3/6/2019,7.3
+A,Normal,Female,Health and beauty,5,406.875,1/24/2019,4.3
+A,Normal,Female,Food and beverages,5,284.9175,3/13/2019,4.6
+B,Normal,Male,Home and lifestyle,9,128.4255,3/15/2019,5.8
+B,Member,Female,Health and beauty,6,258.678,3/5/2019,8.3
+B,Member,Male,Electronic accessories,9,181.818,3/4/2019,8
+C,Normal,Female,Food and beverages,6,248.409,3/25/2019,9.4
+C,Normal,Male,Home and lifestyle,4,194.124,3/12/2019,6.2
+C,Member,Male,Home and lifestyle,1,14.679,2/4/2019,9.8
+B,Normal,Female,Fashion accessories,5,208.6875,2/22/2019,9.6
+C,Member,Female,Fashion accessories,7,718.7565,2/16/2019,4.9
+A,Member,Male,Sports and travel,4,282.492,1/19/2019,8
+A,Normal,Male,Food and beverages,5,72.3975,1/11/2019,7.8
+B,Member,Female,Fashion accessories,4,288.582,1/4/2019,4.1
+A,Normal,Female,Home and lifestyle,4,237.426,3/4/2019,5.5
+C,Normal,Female,Fashion accessories,5,125.055,1/28/2019,5.4
+B,Normal,Female,Health and beauty,10,359.205,1/2/2019,5.1
+B,Normal,Male,Sports and travel,2,45.927,1/25/2019,6.9
+A,Member,Male,Health and beauty,5,110.0925,1/4/2019,7.8
+A,Normal,Male,Sports and travel,3,81.396,3/10/2019,6.6
+A,Normal,Male,Home and lifestyle,8,427.812,3/22/2019,9.2
+B,Normal,Male,Health and beauty,1,100.9155,1/25/2019,7.8
+C,Normal,Female,Home and lifestyle,4,190.596,1/8/2019,8.7
+C,Member,Female,Health and beauty,1,85.5855,1/22/2019,9.2
+B,Normal,Female,Health and beauty,2,120.162,1/12/2019,8.3
+A,Member,Female,Electronic accessories,7,185.367,2/4/2019,8.2
+C,Member,Female,Food and beverages,3,121.59,3/28/2019,7.5
+C,Normal,Female,Electronic accessories,3,264.7575,1/23/2019,9.8
+C,Member,Female,Fashion accessories,10,1020.705,2/8/2019,8.7
+B,Member,Male,Fashion accessories,8,213.528,3/19/2019,6.7
+C,Normal,Male,Fashion accessories,1,17.094,3/9/2019,5
+B,Member,Male,Fashion accessories,9,383.7645,1/2/2019,7
+A,Member,Male,Health and beauty,7,390.7995,1/21/2019,8.9
+B,Member,Female,Food and beverages,3,65.7405,3/20/2019,8
+B,Normal,Male,Sports and travel,5,353.1675,2/27/2019,6.9
+A,Member,Female,Home and lifestyle,10,951.825,3/8/2019,7.3
+B,Normal,Male,Fashion accessories,2,145.068,1/31/2019,6.9
+C,Normal,Male,Food and beverages,2,90.867,3/8/2019,5.7
+A,Normal,Female,Electronic accessories,6,147.798,1/13/2019,6.4
+B,Normal,Male,Fashion accessories,7,702.219,3/9/2019,9.6
+B,Normal,Female,Fashion accessories,1,49.812,2/22/2019,6.8
+C,Normal,Male,Sports and travel,9,937.818,3/19/2019,9
+C,Member,Male,Sports and travel,4,348.306,1/20/2019,9.6
+A,Normal,Male,Home and lifestyle,6,214.137,3/8/2019,7.7
+C,Member,Male,Food and beverages,4,71.568,3/8/2019,7
+C,Normal,Female,Electronic accessories,8,343.224,2/7/2019,6.5
+C,Member,Male,Food and beverages,5,91.56,1/15/2019,8.1
+B,Member,Female,Sports and travel,8,742.812,3/22/2019,4.3
+A,Member,Female,Home and lifestyle,9,843.0345,1/15/2019,6.5
+C,Normal,Male,Fashion accessories,1,13.419,1/8/2019,9.5
+A,Normal,Female,Sports and travel,7,140.385,1/15/2019,9.7
+B,Member,Female,Health and beauty,1,20.1075,1/28/2019,9.5
+C,Member,Male,Food and beverages,10,290.43,2/14/2019,8.9
+C,Normal,Male,Fashion accessories,3,144.081,3/10/2019,6.5
+B,Member,Female,Health and beauty,1,28.4235,1/12/2019,5.3
+B,Member,Female,Sports and travel,1,41.076,3/26/2019,9.6
+B,Normal,Female,Electronic accessories,6,470.673,1/1/2019,6.7
+B,Normal,Male,Electronic accessories,6,138.663,1/2/2019,7.6
+A,Normal,Female,Food and beverages,5,333.9525,3/16/2019,4.8
+A,Normal,Male,Health and beauty,1,26.25,3/3/2019,5.5
+A,Member,Male,Electronic accessories,4,87.234,1/31/2019,4.7
+B,Member,Female,Fashion accessories,5,155.19,2/13/2019,6.9
+B,Member,Female,Food and beverages,9,731.43,2/15/2019,4.5
+B,Normal,Male,Electronic accessories,10,833.595,2/7/2019,6.2
+C,Member,Female,Electronic accessories,10,488.985,1/27/2019,7.6
+C,Normal,Male,Food and beverages,1,37.6845,2/23/2019,7.9
+C,Normal,Male,Food and beverages,5,212.73,2/3/2019,4.5
+B,Member,Female,Food and beverages,10,767.025,3/3/2019,8.7
+C,Normal,Female,Sports and travel,4,310.59,2/3/2019,6.1
+C,Member,Female,Food and beverages,1,23.751,3/17/2019,6.4
+A,Member,Male,Food and beverages,5,269.535,3/28/2019,9.1
+C,Member,Female,Sports and travel,10,572.775,3/2/2019,7.1
+C,Member,Female,Health and beauty,7,273.0525,2/8/2019,7.7
+B,Normal,Male,Sports and travel,6,233.226,3/22/2019,4.5
+C,Normal,Male,Food and beverages,1,22.659,2/9/2019,7.2
+C,Member,Female,Electronic accessories,1,103.782,2/15/2019,8.4
+C,Member,Female,Home and lifestyle,6,527.751,1/23/2019,5.4
+A,Member,Female,Sports and travel,4,168.21,1/25/2019,9.7
+A,Member,Male,Fashion accessories,10,452.865,2/2/2019,5.5
+B,Member,Male,Health and beauty,8,609.588,3/30/2019,4.6
+A,Member,Female,Electronic accessories,5,338.31,3/30/2019,6.6
+A,Normal,Male,Health and beauty,3,205.317,2/25/2019,6.3
+A,Normal,Female,Sports and travel,5,174.615,3/18/2019,4.2
+C,Normal,Male,Electronic accessories,4,353.094,3/7/2019,4.4
+B,Normal,Male,Sports and travel,10,360.885,3/16/2019,6.7
+A,Normal,Male,Electronic accessories,1,40.53,1/29/2019,6.7
+C,Normal,Male,Food and beverages,8,554.148,2/2/2019,8.4
+C,Normal,Female,Electronic accessories,10,344.4,2/15/2019,6.2
+A,Normal,Male,Sports and travel,5,194.985,1/8/2019,5
+B,Member,Male,Home and lifestyle,10,633.99,2/12/2019,6
+C,Member,Female,Sports and travel,10,388.29,1/1/2019,7
+B,Member,Female,Sports and travel,4,207.858,3/21/2019,6.6
+B,Normal,Female,Fashion accessories,10,431.445,2/28/2019,7.3
+A,Normal,Male,Fashion accessories,4,156.03,3/23/2019,8.3
+C,Normal,Male,Home and lifestyle,1,24.108,1/30/2019,4.3
+B,Member,Female,Home and lifestyle,9,734.076,2/4/2019,9.8
+B,Normal,Female,Fashion accessories,2,72.87,3/13/2019,8.2
+A,Member,Female,Fashion accessories,10,206.43,3/15/2019,7.2
+B,Member,Female,Health and beauty,8,212.688,3/5/2019,8.7
+C,Member,Female,Home and lifestyle,10,127.26,3/5/2019,8.4
+B,Normal,Male,Fashion accessories,2,209.769,2/26/2019,7.1
+B,Normal,Male,Sports and travel,8,637.728,3/20/2019,5.5
+C,Normal,Female,Electronic accessories,2,132.762,1/1/2019,8.5
+C,Normal,Female,Food and beverages,6,568.512,1/27/2019,6.2
+B,Member,Female,Sports and travel,1,103.0365,1/21/2019,8.9
+A,Member,Female,Sports and travel,8,432.768,2/2/2019,9.6
+B,Member,Male,Sports and travel,1,77.6685,2/3/2019,5.4
+C,Member,Female,Fashion accessories,1,33.495,1/5/2019,9.1
+C,Normal,Male,Home and lifestyle,2,145.74,1/27/2019,9
+B,Normal,Female,Sports and travel,2,195.951,3/25/2019,6.3
+B,Normal,Male,Sports and travel,1,92.8725,2/25/2019,9.5
+A,Member,Male,Electronic accessories,8,203.112,1/28/2019,9.8
+B,Member,Female,Sports and travel,3,152.775,1/8/2019,6.7
+B,Normal,Female,Food and beverages,6,529.515,1/29/2019,7.7
+B,Member,Male,Health and beauty,5,321.7725,3/29/2019,7
+C,Member,Female,Home and lifestyle,6,100.485,2/9/2019,5.1
+B,Member,Female,Sports and travel,7,666.939,1/16/2019,6.2
+A,Normal,Female,Home and lifestyle,5,225.2775,1/5/2019,6.1
+A,Normal,Female,Fashion accessories,7,398.958,1/27/2019,9.3
+A,Normal,Male,Electronic accessories,7,731.6925,3/14/2019,7.6
+C,Member,Male,Sports and travel,7,429.1665,2/23/2019,8.2
+C,Member,Female,Fashion accessories,1,54.0435,3/18/2019,8.5
+B,Member,Male,Health and beauty,5,288.015,3/29/2019,9.8
+C,Member,Male,Home and lifestyle,5,206.7975,1/22/2019,8.7
+A,Normal,Male,Home and lifestyle,2,72.933,3/1/2019,9.7
+C,Member,Male,Sports and travel,5,377.58,1/17/2019,4.3
+B,Normal,Female,Electronic accessories,3,143.9865,3/26/2019,7.7
+C,Member,Female,Home and lifestyle,6,523.971,3/20/2019,7.3
+A,Member,Female,Home and lifestyle,6,235.872,2/6/2019,5.9
+C,Normal,Male,Health and beauty,2,132.027,1/1/2019,5
+A,Normal,Male,Food and beverages,6,514.773,1/27/2019,8
+A,Member,Female,Sports and travel,5,479.9025,2/25/2019,7.1
+B,Normal,Male,Fashion accessories,4,164.682,1/16/2019,9
+B,Member,Male,Fashion accessories,2,125.706,1/13/2019,6.7
+B,Member,Female,Food and beverages,10,570.78,2/7/2019,6.1
+A,Normal,Male,Sports and travel,9,926.9505,2/17/2019,9.3
+A,Normal,Male,Health and beauty,6,160.209,2/12/2019,7
+A,Member,Male,Fashion accessories,8,728.112,1/24/2019,7.2
+B,Normal,Male,Electronic accessories,10,240.975,2/6/2019,8.2
+C,Normal,Female,Food and beverages,9,154.1295,3/26/2019,8.4
+A,Normal,Female,Home and lifestyle,5,148.68,3/11/2019,6.2
+C,Normal,Male,Home and lifestyle,7,122.5245,2/7/2019,7.4
+B,Member,Female,Fashion accessories,1,77.658,1/5/2019,5
+A,Normal,Male,Home and lifestyle,1,102.837,3/7/2019,6.9
+A,Normal,Female,Fashion accessories,4,306.81,2/25/2019,4.9
+C,Member,Female,Food and beverages,6,551.124,2/1/2019,5.1
+A,Normal,Male,Home and lifestyle,3,96.642,1/22/2019,9.1
+C,Member,Male,Health and beauty,1,79.674,1/3/2019,7.1
+B,Member,Female,Sports and travel,4,84.756,2/13/2019,5
+C,Member,Male,Electronic accessories,6,118.251,1/28/2019,5.5
+B,Normal,Female,Food and beverages,1,74.76,1/5/2019,9.2
+B,Member,Male,Home and lifestyle,4,163.002,3/19/2019,4.9
+A,Normal,Female,Fashion accessories,10,308.91,1/12/2019,8.9
+A,Normal,Male,Sports and travel,9,575.9775,1/7/2019,6
+B,Normal,Female,Sports and travel,5,270.585,1/26/2019,4.2
+A,Normal,Female,Electronic accessories,6,416.178,1/23/2019,7.3
+B,Normal,Male,Fashion accessories,3,180.4005,2/9/2019,6.5
+B,Normal,Female,Fashion accessories,9,513.2295,2/22/2019,8.9
+B,Normal,Female,Health and beauty,9,550.368,2/5/2019,9.7
+C,Normal,Male,Electronic accessories,6,139.923,3/7/2019,8.6
+A,Member,Male,Electronic accessories,7,142.002,3/25/2019,6.9
+B,Normal,Male,Home and lifestyle,3,118.062,1/20/2019,7.7
+B,Member,Female,Fashion accessories,2,151.284,2/4/2019,9.5
+C,Member,Female,Food and beverages,10,1034.46,1/30/2019,4.5
+A,Member,Male,Food and beverages,6,262.458,1/2/2019,5.6
+A,Member,Female,Home and lifestyle,3,228.123,3/29/2019,8.2
+B,Normal,Male,Electronic accessories,9,203.931,3/14/2019,7.3
+C,Normal,Male,Food and beverages,10,936.6,2/11/2019,4.4
+B,Normal,Female,Electronic accessories,8,356.328,1/30/2019,5.7
+A,Member,Male,Electronic accessories,6,469.413,3/20/2019,5
+B,Normal,Male,Fashion accessories,2,208.425,3/20/2019,9
+A,Normal,Female,Food and beverages,10,852.705,1/17/2019,6.3
+C,Normal,Female,Sports and travel,10,517.965,2/3/2019,9.4
+A,Normal,Female,Fashion accessories,9,621.243,1/1/2019,7.7
+B,Normal,Female,Fashion accessories,7,586.971,1/10/2019,5.5
+C,Normal,Female,Sports and travel,7,543.753,3/2/2019,4.1
+B,Member,Female,Home and lifestyle,5,430.71,2/25/2019,7.6
+B,Member,Male,Sports and travel,10,280.035,1/29/2019,8.6
+A,Member,Male,Food and beverages,7,74.4555,3/10/2019,8.3
+B,Normal,Male,Food and beverages,2,152.019,1/13/2019,8.1
+A,Normal,Male,Sports and travel,5,451.0275,3/22/2019,8.6
+B,Member,Male,Fashion accessories,7,597.6285,3/1/2019,6.3
+B,Normal,Male,Food and beverages,4,253.26,2/20/2019,5.8
+C,Normal,Male,Food and beverages,4,133.434,1/14/2019,6.2
+A,Normal,Female,Health and beauty,4,269.934,3/26/2019,7.7
+B,Normal,Male,Health and beauty,2,145.971,3/1/2019,8.1
+C,Normal,Male,Food and beverages,3,85.743,1/7/2019,7.3
+A,Member,Female,Health and beauty,4,326.256,2/1/2019,8.4
+C,Member,Female,Fashion accessories,2,195.258,2/13/2019,8
+B,Member,Female,Fashion accessories,4,75.936,1/14/2019,9.5
+B,Normal,Male,Sports and travel,3,198.639,1/19/2019,7
+A,Normal,Male,Health and beauty,4,217.182,3/9/2019,9.8
+A,Normal,Female,Food and beverages,3,164.871,3/27/2019,9.2
+A,Normal,Female,Sports and travel,5,226.065,2/4/2019,7.7
+C,Normal,Male,Fashion accessories,10,625.905,3/14/2019,5.3
+A,Normal,Male,Health and beauty,5,76.755,3/4/2019,4.4
+C,Member,Male,Health and beauty,6,293.139,3/3/2019,4.3
+C,Member,Female,Home and lifestyle,7,178.164,1/27/2019,9.4
+A,Member,Female,Sports and travel,1,47.859,2/7/2019,9.8
+A,Member,Female,Sports and travel,3,236.88,2/5/2019,4.8
+B,Member,Male,Sports and travel,3,304.92,3/15/2019,5.3
+B,Normal,Male,Health and beauty,3,46.683,3/1/2019,8.7
+A,Normal,Male,Food and beverages,3,164.43,2/15/2019,9.5
+C,Normal,Female,Sports and travel,9,440.937,2/17/2019,5.3
+C,Normal,Female,Fashion accessories,5,193.4625,1/26/2019,9.2
+A,Member,Female,Home and lifestyle,2,147.672,3/24/2019,9.6
+C,Normal,Male,Electronic accessories,1,87.234,1/23/2019,6.4
+C,Normal,Female,Fashion accessories,1,68.2395,1/26/2019,4.5
+C,Normal,Male,Food and beverages,10,814.38,3/14/2019,6.9
+B,Normal,Female,Sports and travel,6,343.413,3/17/2019,7.8
+C,Member,Female,Fashion accessories,7,381.3915,1/8/2019,4.5
+B,Normal,Male,Home and lifestyle,4,133.35,2/8/2019,8.6
+A,Member,Female,Fashion accessories,7,394.3275,2/10/2019,5.2
+C,Member,Female,Food and beverages,4,209.118,3/28/2019,6.4
+A,Normal,Male,Fashion accessories,1,32.1405,1/23/2019,5.2
+B,Member,Male,Food and beverages,2,121.569,1/17/2019,8.9
+A,Normal,Female,Electronic accessories,1,30.408,2/7/2019,6.2
+C,Member,Female,Food and beverages,9,935.2665,3/9/2019,6.7
+B,Member,Male,Fashion accessories,3,293.643,1/24/2019,7.2
+C,Member,Male,Sports and travel,1,84.9765,1/19/2019,9
+A,Member,Male,Food and beverages,10,708.225,2/3/2019,4.2
+A,Member,Female,Sports and travel,9,365.904,3/20/2019,4.2
+B,Member,Male,Sports and travel,6,457.38,1/13/2019,6.9
+C,Member,Male,Electronic accessories,5,461.5275,3/14/2019,4.4
+A,Member,Male,Food and beverages,6,620.739,1/23/2019,4
+C,Member,Female,Fashion accessories,6,273.798,2/7/2019,8.5
+A,Normal,Female,Food and beverages,3,225.792,3/28/2019,9.2
+A,Member,Female,Food and beverages,1,96.1905,3/20/2019,9.8
+B,Member,Female,Home and lifestyle,7,695.2365,1/17/2019,4.9
+B,Normal,Female,Fashion accessories,10,874.125,1/12/2019,4.4
+B,Member,Male,Fashion accessories,1,95.9175,2/16/2019,6.8
+B,Member,Female,Food and beverages,2,165.648,1/26/2019,9.1
+A,Normal,Male,Sports and travel,2,127.827,3/9/2019,8.7
+B,Member,Male,Health and beauty,10,867.09,3/14/2019,5
+A,Member,Male,Home and lifestyle,3,167.895,1/25/2019,7.5
+A,Normal,Female,Fashion accessories,1,12.6945,1/26/2019,8.2
+A,Normal,Male,Sports and travel,10,673.995,1/19/2019,6.7
+A,Normal,Male,Electronic accessories,3,246.6765,3/5/2019,5.4
+A,Member,Male,Food and beverages,2,175.917,1/15/2019,7
+B,Normal,Male,Home and lifestyle,3,314.055,3/18/2019,4.7
+B,Member,Male,Food and beverages,3,251.7165,3/20/2019,5
+B,Member,Male,Health and beauty,10,697.935,1/15/2019,5
+A,Normal,Male,Health and beauty,7,212.7825,3/3/2019,6
+C,Normal,Female,Electronic accessories,1,48.51,3/19/2019,6.3
+B,Member,Female,Food and beverages,5,92.5575,3/8/2019,8.5
+B,Normal,Male,Fashion accessories,3,165.123,2/27/2019,7.5
+B,Member,Female,Food and beverages,3,311.1885,2/23/2019,6.4
+C,Member,Female,Electronic accessories,8,743.82,3/19/2019,4.7
+B,Member,Male,Electronic accessories,2,116.907,3/27/2019,6
+C,Member,Female,Food and beverages,8,609.168,3/30/2019,4
+C,Member,Male,Electronic accessories,5,63.2625,2/16/2019,5.5
+A,Member,Male,Home and lifestyle,9,182.952,1/18/2019,8.7
+C,Normal,Male,Health and beauty,6,442.323,3/30/2019,7.4
+B,Member,Male,Fashion accessories,1,35.3115,3/20/2019,5.6
+C,Member,Female,Sports and travel,2,32.529,1/16/2019,6.3
+C,Normal,Male,Electronic accessories,10,259.77,2/24/2019,7.1
+B,Normal,Male,Electronic accessories,5,397.215,1/15/2019,7.8
+B,Normal,Female,Health and beauty,6,351.603,1/22/2019,9.9
+A,Member,Male,Home and lifestyle,10,764.19,2/3/2019,7.3
+B,Member,Male,Sports and travel,9,352.674,3/6/2019,5.1
+B,Member,Male,Fashion accessories,4,252.756,2/16/2019,9.4
+A,Normal,Female,Electronic accessories,3,49.4235,3/14/2019,5.8
+C,Normal,Female,Electronic accessories,1,104.6745,2/27/2019,8
+A,Member,Female,Fashion accessories,3,277.6725,1/18/2019,7.9
+A,Member,Female,Sports and travel,5,146.6325,1/29/2019,5.9
+A,Member,Male,Fashion accessories,1,58.2225,2/26/2019,4.9
+B,Normal,Female,Sports and travel,3,135.3555,2/3/2019,9.3
+C,Member,Male,Sports and travel,7,125.979,1/16/2019,7.9
+B,Member,Female,Fashion accessories,6,370.125,3/24/2019,5.9
+C,Member,Female,Food and beverages,10,914.55,2/12/2019,9.9
+C,Normal,Female,Sports and travel,2,207.48,2/21/2019,7.7
+A,Normal,Female,Fashion accessories,4,204.246,2/4/2019,7.6
+B,Member,Male,Food and beverages,3,181.881,2/20/2019,7.7
+B,Normal,Female,Health and beauty,4,75.474,2/23/2019,6.4
+C,Member,Female,Health and beauty,6,300.573,2/16/2019,4.4
+B,Normal,Female,Sports and travel,2,85.302,1/17/2019,4.1
+A,Member,Male,Fashion accessories,10,588.42,1/14/2019,4.4
+B,Member,Male,Food and beverages,2,196.14,3/30/2019,5.5
+B,Normal,Female,Health and beauty,3,231.2415,3/2/2019,4
+C,Normal,Male,Health and beauty,8,282.576,2/15/2019,9.3
+A,Normal,Female,Electronic accessories,10,477.54,3/1/2019,4.8
+B,Member,Male,Fashion accessories,2,175.917,2/24/2019,4.6
+B,Member,Female,Sports and travel,7,470.988,2/19/2019,7.3
+A,Member,Female,Food and beverages,4,308.574,2/23/2019,6
+C,Normal,Male,Health and beauty,10,618.975,2/7/2019,8.1
+A,Member,Male,Food and beverages,6,305.55,1/11/2019,9.4
+B,Member,Female,Electronic accessories,1,41.454,2/12/2019,6.5
+B,Normal,Female,Sports and travel,1,36.5505,1/14/2019,7
+C,Normal,Female,Fashion accessories,6,310.716,1/9/2019,7.1
+A,Member,Male,Fashion accessories,2,45.108,2/27/2019,6.6
+B,Member,Female,Sports and travel,6,145.404,1/24/2019,4.9
+B,Member,Female,Home and lifestyle,2,103.11,1/8/2019,6.4
+B,Member,Female,Sports and travel,2,136.143,1/8/2019,8
+A,Member,Male,Home and lifestyle,10,667.38,1/16/2019,4.3
+C,Member,Male,Sports and travel,2,153.048,3/13/2019,6.1
+A,Normal,Female,Food and beverages,3,211.365,2/15/2019,7.5
+C,Member,Female,Sports and travel,9,663.2955,1/25/2019,6.7
+C,Member,Male,Food and beverages,7,404.544,3/12/2019,5.2
+A,Member,Male,Health and beauty,10,510.615,3/4/2019,8.8
+C,Member,Female,Fashion accessories,7,539.343,2/10/2019,9.5
+C,Normal,Female,Food and beverages,9,497.07,1/16/2019,7.6
+A,Member,Female,Home and lifestyle,5,458.6925,1/29/2019,6.6
+A,Member,Female,Sports and travel,4,113.568,1/1/2019,6.9
+B,Normal,Male,Home and lifestyle,4,261.198,1/6/2019,4.3
+A,Member,Male,Electronic accessories,9,657.531,2/19/2019,7.8
+C,Normal,Male,Home and lifestyle,10,1023.75,1/12/2019,8
+C,Normal,Female,Fashion accessories,8,507.444,2/7/2019,9.6
+B,Normal,Male,Food and beverages,3,101.808,3/27/2019,4.3
+B,Member,Female,Fashion accessories,10,207.585,2/27/2019,5
+B,Member,Male,Health and beauty,9,760.4415,1/6/2019,9.2
+B,Member,Female,Home and lifestyle,9,835.2855,3/2/2019,6.3
+B,Normal,Male,Health and beauty,7,527.5095,3/29/2019,8.9
+B,Normal,Female,Electronic accessories,4,180.6,1/31/2019,7.6
+C,Member,Male,Food and beverages,1,72.429,1/21/2019,4.8
+C,Normal,Male,Fashion accessories,8,131.208,1/20/2019,9.1
+A,Normal,Male,Sports and travel,3,80.955,1/17/2019,6.1
+A,Member,Male,Food and beverages,6,507.906,2/28/2019,9.1
+C,Member,Female,Home and lifestyle,4,317.226,3/19/2019,8.3
+C,Normal,Female,Electronic accessories,9,733.6035,2/19/2019,7.2
+C,Normal,Female,Health and beauty,9,130.8825,2/4/2019,6
+C,Member,Male,Fashion accessories,8,829.08,1/31/2019,8.5
+A,Normal,Female,Health and beauty,5,187.32,2/6/2019,6.6
+A,Member,Female,Fashion accessories,7,525.231,3/28/2019,4.5
+A,Member,Male,Electronic accessories,3,37.611,1/19/2019,8.1
+A,Normal,Male,Fashion accessories,3,142.947,2/17/2019,7.2
+B,Member,Female,Fashion accessories,6,110.124,1/18/2019,6.1
+B,Normal,Female,Fashion accessories,7,187.866,2/2/2019,7.1
+C,Member,Female,Sports and travel,9,856.4535,1/18/2019,5.1
+B,Normal,Male,Home and lifestyle,3,138.978,3/18/2019,7.9
+C,Member,Female,Food and beverages,7,270.2595,1/11/2019,7.4
+B,Member,Male,Food and beverages,4,98.028,2/4/2019,7.4
+C,Member,Female,Health and beauty,8,239.4,2/6/2019,6.6
+C,Member,Male,Home and lifestyle,3,175.0455,1/8/2019,5.9
+B,Normal,Male,Sports and travel,10,732.27,3/5/2019,8.9
+C,Normal,Male,Fashion accessories,4,408.492,3/16/2019,6.8
+B,Member,Female,Home and lifestyle,7,383.523,3/9/2019,9.3
+A,Member,Female,Fashion accessories,4,93.744,3/1/2019,4.4
+A,Normal,Male,Health and beauty,3,176.4,2/28/2019,4.8
+A,Member,Male,Fashion accessories,1,20.685,2/8/2019,9.5
+B,Normal,Male,Electronic accessories,7,557.718,1/24/2019,8.9
+B,Member,Male,Food and beverages,1,56.406,3/1/2019,6.4
+C,Member,Male,Health and beauty,10,860.475,3/10/2019,6
+C,Member,Female,Home and lifestyle,7,596.82,3/23/2019,8.1
+C,Normal,Male,Electronic accessories,10,616.98,1/29/2019,9
+B,Member,Male,Electronic accessories,8,769.104,1/12/2019,6
+A,Normal,Male,Home and lifestyle,9,887.922,3/20/2019,9.8
+C,Normal,Male,Home and lifestyle,7,408.7335,3/23/2019,8.5
+C,Normal,Male,Food and beverages,1,89.0715,1/14/2019,8.8
+A,Member,Female,Sports and travel,2,150.423,2/12/2019,8.8
+A,Member,Male,Home and lifestyle,2,79.149,2/20/2019,9.5
+C,Member,Female,Sports and travel,8,266.028,1/2/2019,5.6
+C,Member,Female,Food and beverages,1,40.341,2/2/2019,8.6
+B,Member,Male,Fashion accessories,10,684.915,1/8/2019,5.2
+C,Member,Female,Home and lifestyle,5,55.2825,1/30/2019,5.8
+B,Member,Female,Home and lifestyle,9,116.1405,3/26/2019,8
+C,Member,Male,Health and beauty,7,597.0405,1/15/2019,9
+B,Member,Female,Fashion accessories,4,93.744,3/14/2019,4.1
+A,Normal,Female,Food and beverages,5,143.22,2/3/2019,8.6
+A,Member,Female,Electronic accessories,10,182.91,2/22/2019,7
+B,Normal,Male,Home and lifestyle,5,384.72,1/24/2019,8.4
+C,Member,Female,Fashion accessories,3,267.3405,1/25/2019,7.4
+A,Normal,Female,Fashion accessories,8,817.236,3/9/2019,6.2
+B,Member,Female,Electronic accessories,8,300.216,2/17/2019,4.9
+A,Normal,Female,Home and lifestyle,6,608.076,1/11/2019,4.5
+A,Member,Male,Food and beverages,10,197.925,2/27/2019,5.6
+A,Normal,Female,Food and beverages,4,232.638,3/25/2019,8
+B,Member,Female,Food and beverages,10,810.6,2/11/2019,5.6
+B,Normal,Male,Electronic accessories,10,757.365,1/31/2019,4.2
+A,Member,Female,Fashion accessories,8,536.592,1/20/2019,9.9
+A,Member,Female,Health and beauty,5,56.1225,3/26/2019,7.6
+A,Member,Male,Health and beauty,4,233.1,1/20/2019,6.6
+B,Normal,Female,Home and lifestyle,8,801.864,3/5/2019,4.7
+C,Normal,Female,Fashion accessories,3,239.589,1/5/2019,9.8
+B,Normal,Male,Sports and travel,6,86.247,2/13/2019,6.3
+B,Normal,Female,Electronic accessories,4,401.688,3/16/2019,7.9
+A,Normal,Female,Home and lifestyle,6,72.009,1/15/2019,7.7
+B,Member,Female,Sports and travel,4,401.268,2/26/2019,4.5
+C,Member,Female,Health and beauty,7,631.1445,2/27/2019,8
+C,Member,Female,Sports and travel,7,499.7265,2/17/2019,5.7
+C,Normal,Female,Food and beverages,1,55.041,2/6/2019,6.3
+C,Member,Male,Food and beverages,2,137.865,1/17/2019,6
+B,Normal,Female,Food and beverages,5,151.515,1/22/2019,8
+C,Member,Male,Health and beauty,7,480.0285,3/5/2019,4.2
+B,Normal,Male,Sports and travel,1,98.049,1/3/2019,9.6
+C,Member,Male,Sports and travel,5,132.5625,3/20/2019,6.1
+B,Member,Male,Electronic accessories,9,830.3715,1/31/2019,5.6
+C,Normal,Male,Health and beauty,8,183.12,2/19/2019,8.3
+A,Normal,Female,Sports and travel,4,397.992,2/11/2019,7.8
+A,Member,Female,Fashion accessories,1,32.151,2/5/2019,4.1
+C,Normal,Female,Home and lifestyle,8,369.684,3/3/2019,8.8
+C,Member,Female,Health and beauty,5,53.34,2/24/2019,4.1
+A,Normal,Male,Electronic accessories,7,548.163,2/4/2019,9
+C,Normal,Male,Electronic accessories,8,603.876,2/19/2019,5.5
+C,Normal,Female,Health and beauty,5,57.6975,1/23/2019,9.3
+C,Member,Male,Health and beauty,3,190.4805,1/14/2019,5.6
+A,Normal,Male,Sports and travel,7,432.9885,1/17/2019,9.7
+A,Normal,Male,Fashion accessories,1,48.7305,3/3/2019,4
+C,Member,Male,Health and beauty,4,287.91,2/15/2019,9.2
+B,Normal,Female,Home and lifestyle,10,1022.385,1/15/2019,4.9
+A,Member,Male,Electronic accessories,7,680.61,2/27/2019,9.3
+A,Normal,Female,Electronic accessories,2,97.881,2/26/2019,6.6
+B,Normal,Male,Fashion accessories,2,57.078,3/15/2019,4.3
+C,Member,Female,Home and lifestyle,1,63.9135,1/24/2019,5.5
+A,Member,Female,Sports and travel,10,257.145,2/22/2019,8.1
+B,Normal,Male,Health and beauty,1,97.419,3/15/2019,9.8
+C,Member,Male,Home and lifestyle,5,455.1225,2/11/2019,9.4
+B,Normal,Male,Sports and travel,6,144.963,1/12/2019,7.9
+C,Member,Female,Electronic accessories,8,253.68,3/3/2019,5.1
+C,Member,Male,Fashion accessories,7,495.3165,3/23/2019,6.9
+A,Member,Female,Fashion accessories,9,462.672,3/4/2019,8
+B,Member,Female,Electronic accessories,9,714.3255,2/23/2019,8
+A,Normal,Female,Home and lifestyle,4,325.374,3/17/2019,4.2
+A,Normal,Female,Sports and travel,2,195.678,1/16/2019,8.5
+A,Normal,Female,Electronic accessories,4,210.966,1/8/2019,9
+B,Normal,Female,Health and beauty,1,18.6375,1/14/2019,8.6
+C,Normal,Female,Fashion accessories,10,652.89,1/31/2019,6
+B,Normal,Male,Health and beauty,8,90.3,3/15/2019,6.2
+A,Normal,Female,Electronic accessories,10,422.73,2/24/2019,5
+C,Member,Female,Sports and travel,5,341.0925,2/8/2019,6.5
+A,Normal,Male,Electronic accessories,1,99.9075,3/22/2019,6
+A,Member,Female,Electronic accessories,8,408.408,1/24/2019,5
+B,Normal,Female,Food and beverages,8,446.964,3/14/2019,5
+C,Normal,Female,Fashion accessories,7,333.984,1/23/2019,9.2
+A,Normal,Male,Food and beverages,8,284.592,1/19/2019,9.6
+B,Member,Male,Health and beauty,4,403.872,1/27/2019,8.4
+B,Member,Male,Food and beverages,5,247.59,2/3/2019,6
+B,Normal,Male,Electronic accessories,4,222.138,3/25/2019,6.7
+A,Member,Female,Home and lifestyle,2,100.128,2/24/2019,4.1
+C,Member,Male,Sports and travel,1,10.6785,2/7/2019,5.9
+A,Normal,Female,Health and beauty,3,216.4365,3/4/2019,8.7
+B,Member,Female,Sports and travel,7,441.588,2/14/2019,4.5
+A,Member,Female,Sports and travel,4,92.442,1/29/2019,6.6
+B,Member,Female,Health and beauty,9,681.4395,1/28/2019,7.7
+A,Member,Male,Fashion accessories,3,130.032,3/26/2019,8.5
+C,Normal,Male,Electronic accessories,10,681.975,3/24/2019,5.2
+A,Member,Female,Electronic accessories,10,779.31,1/1/2019,4.3
+A,Normal,Male,Electronic accessories,8,88.704,1/24/2019,7.6
+B,Normal,Male,Health and beauty,4,262.794,2/25/2019,9.5
+B,Member,Female,Sports and travel,8,99.54,1/9/2019,4.1
+A,Member,Male,Health and beauty,1,95.865,2/14/2019,9.2
+B,Member,Female,Home and lifestyle,7,299.3655,3/12/2019,5.4
+A,Normal,Male,Fashion accessories,1,54.999,3/26/2019,5.8
+A,Member,Male,Fashion accessories,5,202.335,1/9/2019,5.6
+B,Normal,Male,Sports and travel,6,281.169,1/2/2019,5.1
+C,Normal,Male,Electronic accessories,10,586.635,1/15/2019,5.8
+C,Member,Female,Sports and travel,6,184.086,1/1/2019,5
+A,Normal,Male,Fashion accessories,3,163.611,2/15/2019,7.9
+B,Normal,Male,Electronic accessories,1,63.315,2/28/2019,6
+A,Member,Female,Sports and travel,2,82.887,3/2/2019,5
+C,Member,Female,Food and beverages,2,31.227,2/13/2019,8.9
+A,Normal,Male,Fashion accessories,1,22.386,1/26/2019,5.9
+A,Member,Male,Electronic accessories,3,295.407,1/30/2019,5.9
+A,Member,Male,Electronic accessories,1,76.923,1/27/2019,9.7
+C,Normal,Female,Sports and travel,1,23.499,1/30/2019,8.6
+C,Member,Female,Food and beverages,9,688.716,1/8/2019,4
+A,Normal,Female,Fashion accessories,6,624.33,1/19/2019,4.2
+A,Normal,Male,Fashion accessories,1,77.805,1/25/2019,9.2
+A,Normal,Female,Fashion accessories,2,206.808,2/19/2019,9.2
+C,Normal,Male,Health and beauty,7,390.9465,1/14/2019,5
+B,Normal,Female,Electronic accessories,10,554.295,2/25/2019,10
+A,Member,Female,Health and beauty,5,503.7375,1/23/2019,8.8
+B,Normal,Female,Fashion accessories,9,345.0195,2/16/2019,4.2
+B,Normal,Male,Food and beverages,8,177.408,1/1/2019,6.3
+A,Member,Female,Home and lifestyle,4,118.902,3/7/2019,8.2
+B,Normal,Male,Health and beauty,6,362.817,2/15/2019,5.1
+A,Member,Female,Food and beverages,9,450.1035,1/23/2019,5
+C,Member,Female,Home and lifestyle,1,90.5835,2/20/2019,7
+A,Member,Male,Sports and travel,2,26.796,1/8/2019,7.8
+B,Normal,Female,Home and lifestyle,9,106.596,3/17/2019,4.3
+B,Normal,Female,Home and lifestyle,7,375.3645,1/12/2019,7
+A,Member,Female,Electronic accessories,3,250.7085,1/8/2019,6.6
+C,Member,Male,Health and beauty,3,106.5015,1/26/2019,7.3
+B,Member,Male,Sports and travel,8,760.452,3/15/2019,6.5
+C,Member,Female,Health and beauty,2,131.922,1/17/2019,4.9
+C,Member,Male,Food and beverages,3,76.5765,1/8/2019,4.3
+A,Normal,Male,Sports and travel,4,271.278,1/6/2019,9.3
+A,Member,Male,Food and beverages,7,182.427,2/16/2019,7.1
+C,Normal,Male,Fashion accessories,1,59.325,3/13/2019,9.6
+B,Member,Female,Electronic accessories,10,225.015,1/28/2019,6.2
+A,Member,Male,Sports and travel,6,561.078,1/18/2019,9.9
+A,Member,Male,Home and lifestyle,4,97.818,3/19/2019,5.9
+C,Normal,Male,Home and lifestyle,8,548.184,3/15/2019,6.3
+C,Member,Male,Fashion accessories,1,54.9675,2/12/2019,4
+B,Member,Male,Electronic accessories,1,41.7375,2/25/2019,6.1
+A,Normal,Female,Electronic accessories,8,756.168,3/21/2019,4.5
+B,Member,Female,Electronic accessories,8,101.64,1/19/2019,8.6
+B,Member,Female,Food and beverages,10,348.705,1/8/2019,6
+C,Member,Female,Fashion accessories,8,85.512,3/30/2019,9.5
+B,Member,Male,Sports and travel,10,335.895,2/20/2019,9.9
+A,Member,Female,Home and lifestyle,6,216.846,3/30/2019,7.5
+A,Member,Female,Food and beverages,2,175.014,3/19/2019,7.6
+A,Normal,Male,Sports and travel,7,335.013,1/13/2019,5
+A,Member,Male,Food and beverages,1,92.295,2/5/2019,6.7
+A,Member,Female,Electronic accessories,10,771.435,3/23/2019,9.5
+C,Normal,Female,Fashion accessories,8,102.396,3/13/2019,6.8
+A,Member,Male,Sports and travel,10,807.66,3/17/2019,5.6
+C,Normal,Female,Health and beauty,5,439.215,2/21/2019,7.2
+B,Normal,Female,Electronic accessories,8,486.444,2/7/2019,8.1
+C,Member,Female,Fashion accessories,5,485.5725,3/2/2019,8.6
+B,Normal,Male,Electronic accessories,5,148.995,3/6/2019,9.4
+B,Member,Male,Electronic accessories,6,317.835,2/6/2019,8.9
+B,Normal,Male,Health and beauty,8,832.944,1/28/2019,4.2
+C,Normal,Male,Fashion accessories,7,446.439,1/18/2019,5
+C,Member,Female,Food and beverages,6,297.801,2/5/2019,8.8
+C,Member,Male,Health and beauty,7,629.16,3/2/2019,5.3
+A,Member,Male,Food and beverages,9,331.128,2/9/2019,4.6
+C,Member,Female,Electronic accessories,9,423.738,1/14/2019,7.5
+B,Normal,Male,Home and lifestyle,4,193.074,2/9/2019,5.1
+A,Member,Female,Health and beauty,5,145.5825,3/26/2019,4.2
+A,Normal,Male,Food and beverages,7,84.7455,1/28/2019,8.1
+C,Normal,Female,Health and beauty,2,122.472,2/14/2019,6
+C,Member,Female,Home and lifestyle,4,329.196,3/24/2019,7.9
+C,Normal,Male,Health and beauty,10,888.405,2/9/2019,8.8
+B,Normal,Female,Health and beauty,5,435.12,3/24/2019,6.6
+A,Member,Female,Food and beverages,2,167.034,3/27/2019,6.2
+B,Normal,Female,Home and lifestyle,10,514.605,1/27/2019,4.2
+B,Member,Female,Food and beverages,3,91.8225,3/27/2019,7.3
+C,Normal,Female,Electronic accessories,4,235.746,1/19/2019,8.6
+A,Normal,Female,Home and lifestyle,8,782.208,2/7/2019,6.8
+A,Member,Male,Fashion accessories,8,431.256,1/31/2019,7.6
+A,Member,Female,Food and beverages,3,313.74,2/25/2019,5.8
+C,Normal,Female,Electronic accessories,6,223.587,2/2/2019,4.1
+C,Member,Male,Sports and travel,1,44.9925,3/14/2019,9.3
+A,Normal,Female,Fashion accessories,4,397.614,3/11/2019,6.8
+B,Normal,Male,Home and lifestyle,3,217.2555,2/22/2019,8.7
+B,Member,Female,Electronic accessories,3,82.719,3/2/2019,6.3
+C,Member,Female,Home and lifestyle,9,338.2155,3/10/2019,5.1
+B,Normal,Female,Home and lifestyle,6,103.131,2/8/2019,7
+C,Member,Female,Home and lifestyle,2,26.733,2/22/2019,5.2
+C,Normal,Female,Sports and travel,7,611.079,1/10/2019,6.6
+C,Member,Female,Sports and travel,6,221.886,3/14/2019,6.5
+B,Normal,Female,Electronic accessories,4,57.876,1/10/2019,9
+B,Member,Male,Sports and travel,1,92.7255,2/15/2019,5.2
+A,Member,Female,Health and beauty,9,374.409,1/13/2019,6.8
+B,Normal,Female,Electronic accessories,9,833.9625,2/15/2019,7.6
+B,Normal,Male,Sports and travel,2,53.151,3/2/2019,7.2
+B,Normal,Male,Home and lifestyle,6,629.496,3/24/2019,7.1
+C,Member,Female,Fashion accessories,2,175.035,2/2/2019,9.5
+A,Normal,Female,Food and beverages,10,781.62,2/27/2019,5.1
+C,Normal,Male,Health and beauty,7,470.988,1/20/2019,7.6
+B,Normal,Female,Home and lifestyle,6,397.845,1/3/2019,9.8
+C,Member,Male,Home and lifestyle,3,270.018,1/24/2019,5.1
+C,Normal,Female,Health and beauty,7,579.8415,1/5/2019,7.5
+A,Normal,Female,Sports and travel,5,469.77,3/30/2019,7.4
+A,Member,Female,Health and beauty,3,290.0835,2/17/2019,4.2
+C,Normal,Female,Food and beverages,6,360.927,3/21/2019,5.9
+A,Normal,Male,Food and beverages,4,279.384,3/2/2019,6.9
+C,Member,Male,Fashion accessories,9,943.299,3/27/2019,6.6
+A,Normal,Female,Home and lifestyle,10,479.64,1/19/2019,5.7
+A,Normal,Male,Health and beauty,5,266.6475,2/19/2019,5.3
+A,Member,Male,Health and beauty,7,74.088,3/28/2019,4.2
+A,Normal,Female,Electronic accessories,7,690.018,1/5/2019,7.3
+C,Member,Male,Electronic accessories,2,176.925,3/26/2019,5.3
+B,Member,Male,Fashion accessories,1,56.469,2/3/2019,4.7
+C,Member,Male,Home and lifestyle,5,188.0025,2/6/2019,7.9
+B,Normal,Female,Food and beverages,8,222.012,2/24/2019,8.9
+B,Member,Male,Health and beauty,3,125.7165,2/21/2019,9.3
+B,Member,Female,Home and lifestyle,3,68.985,1/9/2019,4.7
+B,Member,Female,Food and beverages,4,263.97,2/25/2019,8.7
+C,Member,Female,Food and beverages,4,88.368,1/13/2019,7.6
+B,Member,Male,Home and lifestyle,6,415.233,2/9/2019,5.7
+A,Normal,Female,Fashion accessories,7,312.8895,1/6/2019,6.8
+C,Member,Male,Food and beverages,9,477.1305,1/10/2019,5.4
+B,Normal,Male,Electronic accessories,6,289.926,2/7/2019,7.1
+C,Normal,Female,Home and lifestyle,10,165.9,1/9/2019,7.8
+A,Member,Female,Food and beverages,9,932.337,2/19/2019,8.4
+C,Member,Male,Fashion accessories,1,96.579,3/18/2019,9.8
+A,Member,Male,Electronic accessories,2,43.869,2/5/2019,9.8
+A,Normal,Female,Fashion accessories,1,16.275,3/19/2019,7.4
+C,Member,Male,Electronic accessories,3,304.983,3/30/2019,6.7
+B,Normal,Male,Food and beverages,2,69.993,1/26/2019,6.4
+B,Normal,Female,Electronic accessories,2,80.367,3/2/2019,5.8
+A,Normal,Female,Home and lifestyle,9,314.685,3/4/2019,7.2
+A,Member,Male,Home and lifestyle,3,255.1815,1/13/2019,9.3
+A,Normal,Female,Health and beauty,3,49.77,3/25/2019,9.5
+B,Member,Female,Electronic accessories,5,181.0725,3/11/2019,9
+B,Member,Female,Food and beverages,10,888.615,1/1/2019,9
+B,Member,Male,Home and lifestyle,7,271.2885,2/10/2019,6.7
+B,Normal,Male,Electronic accessories,7,640.038,1/26/2019,5.5
+A,Normal,Male,Home and lifestyle,3,252.252,2/11/2019,5.4
+C,Normal,Male,Fashion accessories,2,180.873,2/7/2019,8.2
+B,Member,Male,Fashion accessories,2,104.832,3/6/2019,7
+A,Normal,Female,Food and beverages,4,313.572,3/4/2019,8.5
+B,Member,Male,Food and beverages,6,167.58,2/26/2019,4.9
+B,Normal,Female,Electronic accessories,1,26.7225,3/10/2019,5.1
+B,Normal,Female,Food and beverages,1,71.1585,2/4/2019,6.5
+C,Member,Male,Food and beverages,4,250.278,1/19/2019,9.8
+A,Normal,Male,Health and beauty,4,244.23,1/23/2019,8.4
+A,Member,Female,Sports and travel,9,921.186,3/14/2019,7.4
+C,Normal,Male,Health and beauty,7,734.706,1/23/2019,6.1
+C,Normal,Male,Electronic accessories,7,708.3195,1/9/2019,6
+B,Normal,Female,Fashion accessories,5,334.4775,2/7/2019,8.5
+B,Normal,Female,Health and beauty,2,30.996,2/18/2019,4.3
+B,Member,Male,Health and beauty,8,520.8,1/3/2019,6.2
+C,Member,Male,Electronic accessories,10,864.57,3/29/2019,4.3
+B,Member,Male,Health and beauty,8,633.108,1/28/2019,8.4
+A,Normal,Female,Food and beverages,5,296.94,3/22/2019,4.5
+B,Normal,Female,Sports and travel,10,804.3,1/24/2019,6
+A,Normal,Male,Electronic accessories,2,121.863,3/10/2019,8.8
+B,Normal,Male,Fashion accessories,10,183.645,2/22/2019,6.6
+C,Member,Female,Electronic accessories,1,63.9975,2/18/2019,5.9
+C,Normal,Male,Health and beauty,1,42.3675,1/29/2019,6.2
+B,Normal,Female,Home and lifestyle,10,1022.49,3/2/2019,4.4
+A,Member,Male,Food and beverages,1,33.432,2/9/2019,7.7
+A,Normal,Male,Home and lifestyle,1,69.111,2/22/2019,4.1
+A,Member,Female,Fashion accessories,7,649.299,2/18/2019,6.6
