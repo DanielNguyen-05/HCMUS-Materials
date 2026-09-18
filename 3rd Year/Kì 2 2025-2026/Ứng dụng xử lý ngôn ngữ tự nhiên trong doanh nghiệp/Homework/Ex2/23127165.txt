@@ -1,0 +1,7 @@
+- Nguyễn Hải Đăng - 23127165
+- GitHub Repository Link:
+```
+https://github.com/DanielNguyen-05/banking-intent-unsloth
+```
+
+
