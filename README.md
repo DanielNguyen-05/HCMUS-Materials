@@ -4,7 +4,7 @@ Hello everyone! My name is *Nguyen Hai Dang*, an Information Technology student 
 
 This repository is a collection of study materials, source code, practical assignments, and projects I have completed during my academic journey at the university. My goal in sharing this is to create an open reference source, helping fellow students get a practical view of the coursework and easily grasp Computer Science and AI concepts.
 
-## 🤝 Let's Learn and Grow Together (Contributing)
+## 🤝 Let's Learn and Grow Together
 
 Knowledge is most valuable when shared. I hope this repository becomes not just my personal archive, but a collaborative space where students can contribute and help each other learn better.
 
